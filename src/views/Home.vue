@@ -82,7 +82,7 @@ export default {
         Accept: "application/json",
         "Content-Type": "application/json",
         marvin: TOKEN,
-        "Access-Control-Allow-Origin":"*",
+        "Access-Control-Allow-Origin":"https://pages.github.ibm.com",
         crossorigin:true
       };
 
