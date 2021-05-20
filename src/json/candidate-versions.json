@@ -124,7 +124,62 @@
         }
       ]
     },
-    "simple-v220-java": {}
+    "simple-v220-java": {
+      "fabric-chaincode-shim": [
+        {
+          "id": "1.3.0",
+          "label": "latest-1.3"
+        },
+        {
+          "id": "1.4.0-rc1",
+          "label": "rc1"
+        },
+        {
+          "id": "1.4.0-rc2",
+          "label": "rc2"
+        },
+        {
+          "id": "1.4.8",
+          "label": "latest-1.4"
+        },
+        {
+          "id": "2.0.0-alpha",
+          "label": "alpha"
+        },
+        {
+          "id": "2.0.0-beta.1",
+          "label": "beta"
+        },
+        {
+          "id": "2.0.1",
+          "label": "latest-2.0"
+        },
+        {
+          "id": "2.1.1",
+          "label": "latest-2.1"
+        },
+        {
+          "id": "2.2.1",
+          "label": "latest-2.2"
+        },
+        {
+          "id": "2.3.0",
+          "label": "unstable"
+        }
+      ]
+    },
+    "simple-v100-golang": {
+      "fabric-contract-api-go": [
+        {
+          "id": "v1.1.1",
+          "label": "latest-1.1"
+        },
+        {
+          "id": "1.0.0",
+          "label": "latest-1.0"
+        }
+      ]
+    }
   },
   "sdk": {
     "sdk-v14x-node": {
