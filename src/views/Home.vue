@@ -20,6 +20,23 @@
             />
           </div>
         </div>
+        <h2 class="subtitle">SDK</h2>
+        <div
+          v-for="(versions, modules) in versions('sdk')"
+          v-bind:key="modules"
+        >
+          For module written to <b>{{ modules }} </b>
+          <div
+            v-for="(versionchoices, modulename) in versions"
+            v-bind:key="versionchoices"
+          >
+            <version-select class="pb-3"
+              :versions="versionchoices"
+              :title="modulename"
+              @update="update($event, 'chaincode', modules, modulename)"
+            />
+          </div>
+        </div>
       </div>
       <div class="box has-text-left">
         <pre classs="has-text-left">{{ tocopy }}</pre>

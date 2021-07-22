@@ -223,7 +223,45 @@
         }
       ]
     },
-    "sdk-v14x-java": {},
-    "sdk-v22x-java": {}
+    "sdk-v14x-java": {
+      "fabric-gateway-java": [
+        {
+          "id": "1.4.5",
+          "label": "latest-1.4"
+        },
+        {
+          "id": "2.0.0",
+          "label": "latest-2.0"
+        },
+        {
+          "id": "2.1.2",
+          "label": "latest-2.1"
+        },
+        {
+          "id": "2.2.2",
+          "label": "latest-2.2"
+        }
+      ]
+    },
+    "sdk-v22x-java": {
+      "fabric-gateway-java": [
+        {
+          "id": "1.4.5",
+          "label": "latest-1.4"
+        },
+        {
+          "id": "2.0.0",
+          "label": "latest-2.0"
+        },
+        {
+          "id": "2.1.2",
+          "label": "latest-2.1"
+        },
+        {
+          "id": "2.2.2",
+          "label": "latest-2.2"
+        }
+      ]
+    }
   }
 }
