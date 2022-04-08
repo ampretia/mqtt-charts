@@ -1,19 +1,26 @@
 {
-  "name": "marvin-configurator",
+  "name": "mqtt-vue-colour",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "publish":"npm run build && scp -r ./docs/ matthew@192.168.1.150:/volume1/web/light"
   },
   "dependencies": {
+    "apexcharts": "^3.35.0",
     "buefy": "^0.9.4",
     "core-js": "^3.6.5",
+    "http-proxy-middleware": "^2.0.4",
+    "mqtt": "^4.3.7",
     "vue": "^2.6.11",
+    "vue-apexcharts": "^1.6.2",
     "vue-axios": "^3.2.4",
+    "vue-canvas-gauges": "^0.0.0",
     "vue-json-pretty": "^1.7.1",
     "vue-router": "^3.2.0",
+    "vue-svg-gauge": "^1.2.1",
     "vuex": "^3.4.0"
   },
   "devDependencies": {
