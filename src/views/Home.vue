@@ -13,7 +13,8 @@
             v-for="(versionchoices, modulename) in versions"
             v-bind:key="versionchoices"
           >
-            <version-select class="pb-3"
+            <version-select
+              class="pb-3"
               :versions="versionchoices"
               :title="modulename"
               @update="update($event, 'chaincode', modules, modulename)"
@@ -30,7 +31,8 @@
             v-for="(versionchoices, modulename) in versions"
             v-bind:key="versionchoices"
           >
-            <version-select class="pb-3"
+            <version-select
+              class="pb-3"
               :versions="versionchoices"
               :title="modulename"
               @update="update($event, 'chaincode', modules, modulename)"
@@ -83,8 +85,8 @@ export default {
    -H "Accept: application/json" \\
    -H "marvin: fb7f354c24a3974dc4432fb4ca6738f50db17d55a07c931f" \\
    -d '${JSON.stringify(this.updatedversions)}' \\
-   https://devops-api.eu-gb.devops.cloud.ibm.com/v1/tekton-webhook/3648c0a9-a5da-478b-ab5b-d3712ec2eca6/run/94d17fdd-b50f-4a35-ae5f-5ea200f44811 `
-},
+   https://devops-api.eu-gb.devops.cloud.ibm.com/v1/tekton-webhook/3648c0a9-a5da-478b-ab5b-d3712ec2eca6/run/94d17fdd-b50f-4a35-ae5f-5ea200f44811 `;
+    },
     async submit() {
       let TOKEN = "fb7f354c24a3974dc4432fb4ca6738f50db17d55a07c931f";
       let HOST =
